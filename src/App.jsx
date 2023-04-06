@@ -1,9 +1,16 @@
-import { Button, Card, Container, Form, Row, Col } from "react-bootstrap";
+import { Button, Card, Container, Form, Row, Col, Nav } from "react-bootstrap";
 
 function App() {
   return (
     <Container>
       <h1>React Bootstrap</h1>
+
+      <Nav>
+        <Nav.Link>Home</Nav.Link>
+        <Nav.Link>Info</Nav.Link>
+        <Nav.Link>Acesso</Nav.Link>
+      </Nav>
+
       <Row>
         <Col className="col-12 col-lg-4 col-md-6">
           <Card>
